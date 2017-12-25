@@ -1,0 +1,26 @@
+2017/07/06 11:06:09 [error] 8960#8960: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/Tyler/panini/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/html/Tyler/panini/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/html/Tyler/panini/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/Tyler/panini/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/html/Tyler/panini/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException
+2017/07/06 11:06:11 [error] 8960#8960: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/Tyler/panini/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/html/Tyler/panini/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/html/Tyler/panini/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/html/Tyler/panini/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/html/Tyler/panini/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/html/Tyler/panini/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException
